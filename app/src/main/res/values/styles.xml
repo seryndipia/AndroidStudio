@@ -1,0 +1,46 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <!-- Login -->
+    <style name="LoginButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/marron</item>
+    </style>
+
+    <!-- Outlined Remember -->
+    <style name="OutlinedRememberButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="strokeColor">@android:color/white</item>
+        <item name="rippleColor">#ebd4d4</item>
+    </style>
+
+    <!-- Text button -->
+    <style name="TextButtonContactUs" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="rippleColor">#ebd4d4</item>
+    </style>
+
+    <!-- Email TextInput Filled-->
+    <style name="Email" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxCornerRadiusBottomStart">4dp</item>
+        <item name="boxCornerRadiusBottomEnd">4dp</item>
+    </style>
+
+    <!-- Password TextInput Filled-->
+    <style name="Password" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="android:textColorHint">@android:color/white</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="hintTextColor">@android:color/white</item>
+        <item name="boxBackgroundColor">#ABA7A7</item>
+        <item name="endIconTint">@android:color/white</item>
+        <item name="boxCornerRadiusBottomStart">4dp</item>
+        <item name="boxCornerRadiusBottomEnd">4dp</item>
+    </style>
+
+</resources>
